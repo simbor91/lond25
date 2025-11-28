@@ -1,0 +1,136 @@
+/* CSS Properties */
+:root {
+  --color-white: #F7EFD2;
+  --color-bg-red: #5b0100;
+  --color-green: #258b22;
+  --color-gold: #d4af37;
+  --color-bg-night: #313946;
+  --color-bg-black: #261E1F 
+}
+
+/* Utils */
+.dir-col {
+  flex-direction: column;
+}
+.backg-green {
+  background-color: var(--color-green);
+}
+.backg-gold {
+  background-color: var(--color-gold);
+}
+
+/* Togliamo sfondo + usiamo quello del viaggio */
+body {
+  background-color: var(--color-bg-night);
+  height: auto;
+}
+main {
+  background: linear-gradient(215deg, var(--color-white) 0%, var(--color-bg-night) 80%);
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.2)),
+    url('/img/london25/bigben-snow2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 10px;
+  color: var(--color-white);
+}
+
+/* Titolo del viaggio */
+.trip-header {
+  height: 150px;
+  padding: 20px;
+  background-color: var(--color-bg-red);
+  text-align: center;
+  background: linear-gradient(0deg, #F7EFD2 0%, #5b0100 60%);
+}
+.trip-header > h1 {
+  margin-bottom: 0;
+  font-style: oblique;
+  font-size: 45px;
+  color: var(--color-white);
+  margin: 0 auto;               /* centro l'elemento in mezzo alla pagina!! */
+  text-shadow: 2px 2px 5px var(--color-gold);
+}
+.trip-header > p {
+  max-width: 300px;
+  padding: 10px;
+  background-color: var(--color-gold);
+  border-radius: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0 auto;               /* centro l'elemento in mezzo alla pagina!! */
+}
+
+/* Programma del viaggio --> Main */
+h2,
+h3 {
+  margin-bottom: 10px;
+}
+h2 {
+  background-color: var(--color-bg-black);
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 15px;
+  font-style: italic;
+  padding: 5px;
+  box-shadow: 0 0 10px var(--color-gold);
+}
+h3 {
+  color: var(--color-gold);
+}
+a {
+  border-radius: 5px;
+  padding: 1px;
+}
+
+#volo-A,
+#volo-R {
+  max-width: 300px;
+}
+span {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 2px;
+}
+
+/* Lista */
+ol, ul {
+  margin-inline-start: 30px;
+}
+ol {
+  list-style: decimal;
+}
+li {
+  margin-bottom: 5px;
+}
+
+/* Tabella sezione spese */
+table {
+  margin: 40px auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 600px;
+  border: 2px dashed var(--color-gold);
+  text-align: left;
+}
+th, td {
+  border: 2px dashed var(--color-gold);
+  padding: 10px;
+}
+tfoot {
+  text-align: right;
+  font-weight: bold;
+}
+table tr:hover {
+  background-color: rgba(212, 175, 55, 0.2);
+}
+
+/* Lista To Do list */
+.todo-list {
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
