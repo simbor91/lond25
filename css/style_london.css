@@ -8,7 +8,7 @@
   --color-bg-black: #261E1F 
 }
 
-/* Utils */
+/** Utils */
 .dir-col {
   flex-direction: column;
 }
@@ -26,9 +26,9 @@ body {
 }
 main {
   background: linear-gradient(215deg, var(--color-white) 0%, var(--color-bg-night) 80%);
-  background-image: 
+  background-image:
     linear-gradient(rgba(0,0,0,0.2)),
-    url('/img/london25/bigben-snow2.jpg');
+    url(../img/london25/bigben-snow2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -53,7 +53,7 @@ main {
   text-shadow: 2px 2px 5px var(--color-gold);
 }
 .dates {
-  max-width: 300px;
+  max-width: 350px;
   padding: 10px;
   background-color: var(--color-gold);
   border-radius: 20px;
@@ -71,22 +71,19 @@ main {
 }
 
 /* Programma del viaggio --> Main */
-h2,
-h3 {
-  margin-bottom: 10px;
-}
 h2 {
   background-color: var(--color-bg-black);
   text-align: center;
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
   border-radius: 15px;
   font-style: italic;
-  padding: 5px;
+  padding: 10px 10px;
   box-shadow: 0 0 10px var(--color-gold);
 }
 h3 {
   color: var(--color-gold);
+  padding: 10px 0;
 }
 a {
   border-radius: 5px;
@@ -96,6 +93,11 @@ a {
 #volo-A,
 #volo-R {
   max-width: 300px;
+  padding: 10px 0;
+}
+#cursed-img {
+  max-width: 500px;
+  padding: 10px 0;
 }
 span {
   background-color: red;
