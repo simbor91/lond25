@@ -35,7 +35,6 @@ main {
   background-position: center;
   padding: 10px;
   color: var(--color-white);
-  min-width: 100%;
 }
 
 /* Titolo del viaggio */
@@ -98,7 +97,7 @@ a {
   padding: 10px 0;
 }
 #cursed-img {
-  width: 100%;
+  width: 300px;
   padding: 10px 0;
 }
 span {
@@ -123,8 +122,7 @@ li {
 table {
   margin: 40px auto;
   border-collapse: collapse;
-  width: 90%;
-  max-width: 100%;
+  width: 70%;
   border: 2px dashed var(--color-gold);
   text-align: left;
 }
