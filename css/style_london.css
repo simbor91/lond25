@@ -23,7 +23,7 @@
 html {
   background-color: var(--color-bg-night);
   height: auto;
-  min-width: 100dvw;
+  min-width: 80dvw;
 }
 main {
   background: linear-gradient(215deg, var(--color-white) 0%, var(--color-bg-night) 80%);
